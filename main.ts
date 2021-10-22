@@ -14,6 +14,7 @@ scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.hazardLava1, function (sp
 info.onLifeZero(function () {
     game.over(false)
 })
+let myEnemy = 0
 let myCorg: Corgio = null
 info.setLife(3)
 scene.setBackgroundImage(assets.image`spice`)
@@ -23,4 +24,6 @@ scene.cameraFollowSprite(myCorg.sprite)
 myCorg.horizontalMovement()
 tiles.setTilemap(tilemap`level1`)
 myCorg.verticalMovement()
-tiles.createSpritesOnTiles(sprites.dungeon.floorLight0, SpriteKind.Enemy)
+tiles.createSpritesOnTiles(sprites.dungeon.floorLight0, myEnemy)
+myEnemy.setImage(assets.image`what`)
+myEnemy.follow(myCorg)

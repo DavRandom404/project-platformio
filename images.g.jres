@@ -14,6 +14,11 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "spice"
     },
+    "image2": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAA8REAAAAAABER8QAAAAAAAPHxEREREQAAEfERERERABERHxERAAAAABEREREAAAAAAAAREQAAAAAAABERAAAAAAAAEREREQAAAAARERERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "what"
+    },
     "*": {
         "mimeType": "image/x-mkcd-f4",
         "dataEncoding": "base64",
